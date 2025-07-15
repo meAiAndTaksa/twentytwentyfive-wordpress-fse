@@ -1,0 +1,17 @@
+{
+    "name": "twentytwentyfive-wordpress-fse/related-neiro-answers",
+    "title": "Связанные Ответы из чата с нейросетью",
+    "description": "Выводит связанные записи типа Neiro Answer для текущего Neiro Chat.",
+    "category": "widgets",
+    "icon": "buddicons-replies",
+    "keywords": ["neiro", "answers", "related", "acf", "chat"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "related-neiro-answers.php"
+    },
+    "supports": {
+        "align": false,
+        "html": false
+    },
+    "textdomain": "twentytwentyfive-wordpress-fse"
+}

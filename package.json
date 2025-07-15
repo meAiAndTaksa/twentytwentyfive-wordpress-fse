@@ -1,0 +1,19 @@
+{
+  "name": "twentytwentyfive-wordpress-fse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.0.0", // Указываем, что хотим Tailwind CSS v3 или новее 
+    "postcss": "^8.0.0", // PostCSS v8 или новее 
+    "autoprefixer": "^10.0.0" // Autoprefixer v10 или новее
+  }
+}
